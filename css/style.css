@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8e9eab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient( to right, #eef2f3, #8e9eab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient( to right, #eef2f3, #8e9eab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-body {
+  height: 600px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20vh;
+  background-color: white;
+  /* border: 2px solid black; */
+}
+
+.screen {
+  width: 100%;
+  height: 150px;
+  background-color: whitesmoke;
+  border-top: 5px #333 solid;
+  border-right: 5px #333 solid;
+  border-left: 5px #333 solid;
+}
+
+.keypad {
+  background-color: white;
+}
+
+.keys {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  background-color: #333;
+  padding: 0.5em 0.5em;
+  margin: ;
+  width: 100px;
+  height: 90px;
+  position: relative;
+  border: 1px solid #333;
+  overflow: hidden;
+  /* transition: background 50ms ease-in; */
+}
+
+.keys:focus {
+  outline: 0;
+}
+
+.keys:hover {
+  background-color: grey;
+  /* color: ; */
+}
+
+.double-space {
+  width: 200px;
+}
+
+/* .btn-lg::before {
+  content: "";
+  width: 100%;
+  height: 20%;
+  left: -110%;
+  top: 40%;
+  transform: rotate(-40deg);
+
+  position: absolute;
+  background-color: rgba(225, 225, 225, 0.7);
+  box-shadow: 0 0 50px 20px rgb(255, 255, 255, 0.65);
+  transition: left 200ms ease-in;
+}
+
+.btn-lg:hover::before {
+  left: 200%;
+} */
